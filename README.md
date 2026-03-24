@@ -25,7 +25,7 @@
  - Вывести список jobs `jobs`
  - Перевести в background `bg %1`
  - Вытащить в foreground: `fg %1`
- Задача со звездочкой
+    Задача со звездочкой
 8. Установка, создание `unit-файла`, запуск
  - sudo cp /etc/redis/redis.conf /etc/redis/redis-second.conf
  - sudo apt install redis-server -y
