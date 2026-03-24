@@ -27,7 +27,9 @@
  - Вытащить в foreground: `fg %1`
 Задача со звездочкой
 7. Установка, создание `unit-файла`, запуск
+ - sudo cp /etc/redis/redis.conf /etc/redis/redis-second.conf
  - sudo apt install redis-server -y
  - sudo nano /etc/systemd/system/redis-second.service
  - sudo systemctl daemon-reload
- - sudo systemctl enable --now redis-second
+ - sudo systemctl start redis-second
+ - sudo systemctl enable redis-second
